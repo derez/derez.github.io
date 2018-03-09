@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bits on 0x42697473 - f27</title><link href="https://derez.github.io/" rel="alternate"></link><link href="https://derez.github.io/tag/f27/feed/index.xml" rel="self"></link><id>https://derez.github.io/</id><updated>2017-11-03T00:00:00-04:00</updated><entry><title>fedora workstation and ansible</title><link href="https://derez.github.io/2017/workstation%20and%20ansible.html" rel="alternate"></link><published>2017-11-03T00:00:00-04:00</published><updated>2017-11-03T00:00:00-04:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2017-11-03:/2017/workstation and ansible.html</id><summary type="html">&lt;p class="first last"&gt;How I use ansible to manage my fedora&amp;nbsp;workstations.&lt;/p&gt;
+</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="n"&gt;ansible&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;playbook&lt;/span&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="new workstation" src="https://derez.github.io/images/cpu.png" /&gt;
+&lt;p class="caption"&gt;my new&amp;nbsp;workstation&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="ansible"></category><category term="fedora"></category><category term="f25"></category><category term="f26"></category><category term="f27"></category></entry></feed>

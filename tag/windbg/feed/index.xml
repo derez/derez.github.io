@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bits on 0x42697473 - windbg</title><link href="https://derez.github.io/" rel="alternate"></link><link href="https://derez.github.io/tag/windbg/feed/index.xml" rel="self"></link><id>https://derez.github.io/</id><updated>2016-10-04T00:00:00-04:00</updated><entry><title>Initial content</title><link href="https://derez.github.io/2016/content.html" rel="alternate"></link><published>2016-10-03T00:00:00-04:00</published><updated>2016-10-04T00:00:00-04:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2016-10-03:/2016/content.html</id><summary type="html">&lt;p class="first last"&gt;Content for&amp;nbsp;testing&lt;/p&gt;
+</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="map to buried treasure" src="https://derez.github.io/images/hex.gif" /&gt;
+&lt;p class="caption"&gt;This is the caption of the figure (a simple&amp;nbsp;paragraph).&lt;/p&gt;
+&lt;div class="legend"&gt;
+&lt;p&gt;The legend consists of all elements after the caption.  In this
+case, the legend consists of this paragraph and the following&amp;nbsp;table:&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="69%" /&gt;
+&lt;col width="31%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Symbol&lt;/th&gt;
+&lt;th class="head"&gt;Meaning&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://derez.github.io/images/disc_1.png" /&gt;
+&lt;/td&gt;
+&lt;td&gt;Disc 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://derez.github.io/images/bit_yes.png" /&gt;
+&lt;/td&gt;
+&lt;td&gt;Bit yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://derez.github.io/images/bit.png" /&gt;
+&lt;/td&gt;
+&lt;td&gt;Bit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="python"></category><category term="data"></category><category term="f26"></category><category term="bash"></category><category term="ida python"></category><category term="ctf challenges"></category><category term="nasm"></category><category term="c"></category><category term="excel"></category><category term="trojan"></category><category term="strongswan"></category><category term="visual studio"></category><category term="c++"></category><category term="masm"></category><category term="project placeholder"></category><category term="trac"></category><category term="ida pro"></category><category term="ipsec"></category><category term="visual c++"></category><category term="windbg"></category></entry></feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bits on 0x42697473 - github</title><link href="https://derez.github.io/" rel="alternate"></link><link href="https://derez.github.io/tag/github/feed/index.xml" rel="self"></link><id>https://derez.github.io/</id><updated>2018-01-10T00:00:00-05:00</updated><entry><title>Pelican project website theme</title><link href="https://derez.github.io/2018/project_website.html" rel="alternate"></link><published>2018-01-10T00:00:00-05:00</published><updated>2018-01-10T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-01-10:/2018/project_website.html</id><summary type="html">
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two&amp;nbsp;down.&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two&amp;nbsp;down.&lt;/p&gt;
+
+&lt;p&gt;Since I have spent the better part of the last 14 years working in Python that was an easy choice as well. I chose
+&lt;a class="reference external" href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt; and decided to build a custom theme as I couldn&amp;#8217;t find one I was happy&amp;nbsp;with.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="requirements"&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Since all projects starts with requirements&amp;nbsp;;)&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Support identification of projects and resources I want to&amp;nbsp;post.&lt;/li&gt;
+&lt;li&gt;Would like to have a project site first with the ability to&amp;nbsp;blog.&lt;/li&gt;
+&lt;li&gt;Wanted to use ReStructured Text. The site content needed to be driven by simple &lt;span class="caps"&gt;ASCII&lt;/span&gt; text&amp;nbsp;files.&lt;/li&gt;
+&lt;li&gt;Great code syntax highlighting is a&amp;nbsp;must.&lt;/li&gt;
+&lt;li&gt;Support for mobile&amp;nbsp;platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="blog"></category><category term="static website"></category><category term="pelican"></category><category term="python"></category><category term="github"></category><category term="materializecss"></category></entry></feed>

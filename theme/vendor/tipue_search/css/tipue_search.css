@@ -1,0 +1,129 @@
+/*
+Tipue Search 4.0
+Copyright (c) 2014 Tipue
+Tipue Search is released under the MIT License
+http://www.tipue.com/search
+*/
+
+#tipue_search_form {
+    margin-top: 3em;
+}
+
+#tipue_search_content {
+    clear: left;
+    margin: 0;
+}
+
+#tipue_search_loading {
+    background: #fff url('img/loader.gif') no-repeat left;
+    padding-top: 60px;
+}
+
+#tipue_search_warning_head {
+}
+
+#tipue_search_warning {
+    margin: 7px 0;
+}
+
+#tipue_search_warning a {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#tipue_search_warning a:hover {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+}
+
+#tipue_search_results_count,
+#tipue_search_warning_head {
+    border-bottom: 2px solid #607d8b;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 20px 0 20px 0;
+    padding: 5px 5px 15px 5px;
+}
+
+.tipue_search_content_title {
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.1;
+    text-rendering: optimizelegibility;
+    margin-top: 20px;
+}
+
+.tipue_search_content_title a {
+    color: #C74350;
+    text-decoration: underline;
+}
+
+.tipue_search_content_title a:hover {
+    background-color: #C74350;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.tipue_search_content_url {
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    overflow: auto;
+}
+
+.tipue_search_content_url a {
+    text-decoration: none;
+}
+
+.tipue_search_content_url a:hover {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.tipue_search_content_text {
+    font-size: 1em;
+    font-variant: normal;
+    line-height: 1.6em;
+    padding: 13px 0;
+    text-transform: none;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.tipue_search_content_text b {
+    font-size: 1.1em
+}
+
+.h01 {
+    font-weight: 400;
+}
+
+#tipue_search_foot {
+    margin: 51px 0 21px 0
+}
+
+#tipue_search_foot_boxes {
+    margin: 0;
+    padding: 0;
+}
+
+#tipue_search_foot_boxes li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#tipue_search_foot_boxes li a:hover {
+    border: 1px solid #ccc;
+}
+
+#tipue_search_input {
+    text-align: left;
+}

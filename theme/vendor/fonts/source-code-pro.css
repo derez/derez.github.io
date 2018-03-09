@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff'),
+         url('OTF/SourceCodePro-Regular.otf') format('opentype'),
+         url('TTF/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('WOFF/OTF/SourceCodePro-Bold.otf.woff') format('woff'),
+         url('OTF/SourceCodePro-Bold.otf') format('opentype'),
+         url('TTF/SourceCodePro-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('WOFF/OTF/SourceCodePro-Black.otf.woff') format('woff'),
+         url('OTF/SourceCodePro-Black.otf') format('opentype'),
+         url('TTF/SourceCodePro-Black.ttf') format('truetype');
+}

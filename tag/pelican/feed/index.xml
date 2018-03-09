@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bits on 0x42697473 - pelican</title><link href="https://derez.github.io/" rel="alternate"></link><link href="https://derez.github.io/tag/pelican/feed/index.xml" rel="self"></link><id>https://derez.github.io/</id><updated>2018-03-01T00:00:00-05:00</updated><entry><title>How to install Pelican</title><link href="https://derez.github.io/2018/pelican_powered.html" rel="alternate"></link><published>2018-03-01T00:00:00-05:00</published><updated>2018-03-01T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-03-01:/2018/pelican_powered.html</id><summary type="html">&lt;p class="first last"&gt;Installing pelican&amp;nbsp;101&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;1) First, create a virtualenv. This step requires that you have already setup virtualenv and virtualenvwrapper. I am using it to create
+the virtualenv with python3 and probably isn&amp;#8217;t the correct way today. I have been using python3 for years and I like having the same
+workflow for&amp;nbsp;both.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkproject -p python3 &amp;lt;venv_name&amp;gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;Install&amp;nbsp;Pelican&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3) Run quickstart to get a sample site created to look at. It will ask a series of questions to configure environment. Use default
+settings unless you know what you want. All settings are able to modified later in the&amp;nbsp;pelicanconf.py.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pelican-quickstart
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="4"&gt;
+&lt;li&gt;To look at the test site and&amp;nbsp;explore.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="5"&gt;
+&lt;li&gt;Goto a web browser to &lt;a class="reference external" href="http://127.0.0.1:8000"&gt;http://127.0.0.1:8000&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6) Generate content by going into the &amp;lt;project folder/content and create a new RestructuredText file. Once done you can regenerate
+content and review at the same localhost&amp;nbsp;address.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make clean &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="python"></category><category term="pelican"></category></entry><entry><title>Pelican project website theme</title><link href="https://derez.github.io/2018/project_website.html" rel="alternate"></link><published>2018-01-10T00:00:00-05:00</published><updated>2018-01-10T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-01-10:/2018/project_website.html</id><summary type="html">
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two&amp;nbsp;down.&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two&amp;nbsp;down.&lt;/p&gt;
+
+&lt;p&gt;Since I have spent the better part of the last 14 years working in Python that was an easy choice as well. I chose
+&lt;a class="reference external" href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt; and decided to build a custom theme as I couldn&amp;#8217;t find one I was happy&amp;nbsp;with.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="requirements"&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Since all projects starts with requirements&amp;nbsp;;)&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Support identification of projects and resources I want to&amp;nbsp;post.&lt;/li&gt;
+&lt;li&gt;Would like to have a project site first with the ability to&amp;nbsp;blog.&lt;/li&gt;
+&lt;li&gt;Wanted to use ReStructured Text. The site content needed to be driven by simple &lt;span class="caps"&gt;ASCII&lt;/span&gt; text&amp;nbsp;files.&lt;/li&gt;
+&lt;li&gt;Great code syntax highlighting is a&amp;nbsp;must.&lt;/li&gt;
+&lt;li&gt;Support for mobile&amp;nbsp;platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="blog"></category><category term="static website"></category><category term="pelican"></category><category term="python"></category><category term="github"></category><category term="materializecss"></category></entry></feed>
