@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://derez.github.io/</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/archives.html</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/tags.html</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/categories.html</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/pages/about.html</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -61,7 +61,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://derez.github.io/pages/working.html</loc>
-<lastmod>2018-03-11T22:09:46-00:00</lastmod>
+<lastmod>2018-03-11T22:23:52-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,13 +102,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://derez.github.io/2018/meltdown.html</loc>
-<lastmod>2018-02-03T00:00:00-05:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://derez.github.io/2018/workstation and ansible.html</loc>
 <lastmod>2018-01-22T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -119,13 +112,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://derez.github.io/2018/project-website.html</loc>
 <lastmod>2018-01-10T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://derez.github.io/category/code-breakdown.html</loc>
-<lastmod>2018-02-03T00:00:00-04:56</lastmod>
-<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -216,20 +202,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://derez.github.io/tag/bash.html</loc>
 <lastmod>2018-02-23T00:00:00-04:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://derez.github.io/tag/meltdown.html</loc>
-<lastmod>2018-02-03T00:00:00-04:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://derez.github.io/tag/code.html</loc>
-<lastmod>2018-02-03T00:00:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
