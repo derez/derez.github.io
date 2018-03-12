@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bit on Bits - project site</title><link href="https://derez.github.io/" rel="alternate"></link><link href="https://derez.github.io/feeds/category/project-site/index.xml" rel="self"></link><id>https://derez.github.io/</id><updated>2018-03-09T00:00:00-05:00</updated><entry><title>Project Site Link</title><link href="https://derez.github.io/2018/working.html" rel="alternate"></link><published>2018-03-09T00:00:00-05:00</published><updated>2018-03-09T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-03-09:/2018/working.html</id><summary type="html">&lt;p class="first last"&gt;Project site placeholder.. working to get content&amp;nbsp;up&amp;#8230;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Moving content to this site is taking longer than expected.. Feel free to track my progress using the Atom feeds in your favorite reader..&lt;/p&gt;
+&lt;p&gt;&lt;img alt="feed" class="align-bottom" src="https://derez.github.io/images/atom32.png"/&gt; &lt;a class="reference external" href="https://derez/github.io/feeds/all.atom.xml"&gt;All Atom Feeds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="feed" class="align-bottom" src="https://derez.github.io/images/atom32.png"/&gt; &lt;a class="reference external" href="https://derez/github.io/feeds/index.xml"&gt;All Atom Posts&lt;/a&gt;&lt;/p&gt;
+</content><category term="project tag"></category></entry><entry><title>PlantUML test page</title><link href="https://derez.github.io/2018/plantuml.html" rel="alternate"></link><published>2018-03-07T00:00:00-05:00</published><updated>2018-03-07T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-03-07:/2018/plantuml.html</id><summary type="html">&lt;p class="first last"&gt;Overview of the Pelican plantuml&amp;nbsp;plugin&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Examples of some of the files able to be generated using the Pelican plantuml plugin. Due to the customizable skinparam sequence
+we are able to design it to fit any site. Will break this down more and also look into building in &lt;span class="caps"&gt;CSS&lt;/span&gt; style sheets to handle achieve
+a consistant look.&lt;/p&gt;
+&lt;p&gt;Sequence diagram from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt; 1 &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;uml&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-2"&gt;&lt;span class="lineno"&gt; 2 &lt;/span&gt;  &lt;span class="nc"&gt;:alt:&lt;/span&gt; &lt;span class="nf"&gt;Sample sequence diagram&lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-3"&gt;&lt;span class="lineno"&gt; 3 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-4"&gt;&lt;span class="lineno"&gt; 4 &lt;/span&gt;  skinparam backgroundColor Black
+&lt;/span&gt;&lt;span id="row-5"&gt;&lt;span class="lineno"&gt; 5 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-6"&gt;&lt;span class="lineno"&gt; 6 &lt;/span&gt;  participant User
+&lt;/span&gt;&lt;span id="row-7"&gt;&lt;span class="lineno"&gt; 7 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-8"&gt;&lt;span class="lineno"&gt; 8 &lt;/span&gt;  User -&amp;gt; A: DoWork
+&lt;/span&gt;&lt;span id="row-9"&gt;&lt;span class="lineno"&gt; 9 &lt;/span&gt;  activate A #FFBBBB
+&lt;/span&gt;&lt;span id="row-10"&gt;&lt;span class="lineno"&gt;10 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-11"&gt;&lt;span class="lineno"&gt;11 &lt;/span&gt;  A -&amp;gt; A: Internal call
+&lt;/span&gt;&lt;span id="row-12"&gt;&lt;span class="lineno"&gt;12 &lt;/span&gt;  activate A #DarkSalmon
+&lt;/span&gt;&lt;span id="row-13"&gt;&lt;span class="lineno"&gt;13 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-14"&gt;&lt;span class="lineno"&gt;14 &lt;/span&gt;  A -&amp;gt; B: &amp;lt;&amp;lt; createRequest &amp;gt;&amp;gt;
+&lt;/span&gt;&lt;span id="row-15"&gt;&lt;span class="lineno"&gt;15 &lt;/span&gt;  activate B
+&lt;/span&gt;&lt;span id="row-16"&gt;&lt;span class="lineno"&gt;16 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-17"&gt;&lt;span class="lineno"&gt;17 &lt;/span&gt;  B --&amp;gt; A: RequestCreated
+&lt;/span&gt;&lt;span id="row-18"&gt;&lt;span class="lineno"&gt;18 &lt;/span&gt;  deactivate B
+&lt;/span&gt;&lt;span id="row-19"&gt;&lt;span class="lineno"&gt;19 &lt;/span&gt;  deactivate A
+&lt;/span&gt;&lt;span id="row-20"&gt;&lt;span class="lineno"&gt;20 &lt;/span&gt;  A -&amp;gt; User: Done
+&lt;/span&gt;&lt;span id="row-21"&gt;&lt;span class="lineno"&gt;21 &lt;/span&gt;  deactivate A
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;img alt="Sample sequence diagram" class="uml" src="https://derez.github.io/images/cd97e07a.png"/&gt;
+&lt;p&gt;Another example from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt; site (activity diagram):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt; 1 &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;uml&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-2"&gt;&lt;span class="lineno"&gt; 2 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-3"&gt;&lt;span class="lineno"&gt; 3 &lt;/span&gt;  skinparam monochrome reverse
+&lt;/span&gt;&lt;span id="row-4"&gt;&lt;span class="lineno"&gt; 4 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-5"&gt;&lt;span class="lineno"&gt; 5 &lt;/span&gt;  start
+&lt;/span&gt;&lt;span id="row-6"&gt;&lt;span class="lineno"&gt; 6 &lt;/span&gt;  :ClickServlet.handleRequest();
+&lt;/span&gt;&lt;span id="row-7"&gt;&lt;span class="lineno"&gt; 7 &lt;/span&gt;  :new page;
+&lt;/span&gt;&lt;span id="row-8"&gt;&lt;span class="lineno"&gt; 8 &lt;/span&gt;  if (Page.onSecurityCheck) then (true)
+&lt;/span&gt;&lt;span id="row-9"&gt;&lt;span class="lineno"&gt; 9 &lt;/span&gt;    :Page.onInit();
+&lt;/span&gt;&lt;span id="row-10"&gt;&lt;span class="lineno"&gt;10 &lt;/span&gt;    if (isForward?) then (no)
+&lt;/span&gt;&lt;span id="row-11"&gt;&lt;span class="lineno"&gt;11 &lt;/span&gt;      :Process controls;
+&lt;/span&gt;&lt;span id="row-12"&gt;&lt;span class="lineno"&gt;12 &lt;/span&gt;      if (continue processing?) then (no)
+&lt;/span&gt;&lt;span id="row-13"&gt;&lt;span class="lineno"&gt;13 &lt;/span&gt;        stop
+&lt;/span&gt;&lt;span id="row-14"&gt;&lt;span class="lineno"&gt;14 &lt;/span&gt;      endif
+&lt;/span&gt;&lt;span id="row-15"&gt;&lt;span class="lineno"&gt;15 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-16"&gt;&lt;span class="lineno"&gt;16 &lt;/span&gt;      if (isPost?) then (yes)
+&lt;/span&gt;&lt;span id="row-17"&gt;&lt;span class="lineno"&gt;17 &lt;/span&gt;        :Page.onPost();
+&lt;/span&gt;&lt;span id="row-18"&gt;&lt;span class="lineno"&gt;18 &lt;/span&gt;      else (no)
+&lt;/span&gt;&lt;span id="row-19"&gt;&lt;span class="lineno"&gt;19 &lt;/span&gt;        :Page.onGet();
+&lt;/span&gt;&lt;span id="row-20"&gt;&lt;span class="lineno"&gt;20 &lt;/span&gt;      endif
+&lt;/span&gt;&lt;span id="row-21"&gt;&lt;span class="lineno"&gt;21 &lt;/span&gt;      :Page.onRender();
+&lt;/span&gt;&lt;span id="row-22"&gt;&lt;span class="lineno"&gt;22 &lt;/span&gt;    endif
+&lt;/span&gt;&lt;span id="row-23"&gt;&lt;span class="lineno"&gt;23 &lt;/span&gt;  else (false)
+&lt;/span&gt;&lt;span id="row-24"&gt;&lt;span class="lineno"&gt;24 &lt;/span&gt;  endif
+&lt;/span&gt;&lt;span id="row-25"&gt;&lt;span class="lineno"&gt;25 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-26"&gt;&lt;span class="lineno"&gt;26 &lt;/span&gt;  if (do redirect?) then (yes)
+&lt;/span&gt;&lt;span id="row-27"&gt;&lt;span class="lineno"&gt;27 &lt;/span&gt;    :redirect process;
+&lt;/span&gt;&lt;span id="row-28"&gt;&lt;span class="lineno"&gt;28 &lt;/span&gt;  else
+&lt;/span&gt;&lt;span id="row-29"&gt;&lt;span class="lineno"&gt;29 &lt;/span&gt;    if (do forward?) then (yes)
+&lt;/span&gt;&lt;span id="row-30"&gt;&lt;span class="lineno"&gt;30 &lt;/span&gt;      :Forward request;
+&lt;/span&gt;&lt;span id="row-31"&gt;&lt;span class="lineno"&gt;31 &lt;/span&gt;    else (no)
+&lt;/span&gt;&lt;span id="row-32"&gt;&lt;span class="lineno"&gt;32 &lt;/span&gt;      :Render page template;
+&lt;/span&gt;&lt;span id="row-33"&gt;&lt;span class="lineno"&gt;33 &lt;/span&gt;    endif
+&lt;/span&gt;&lt;span id="row-34"&gt;&lt;span class="lineno"&gt;34 &lt;/span&gt;  endif
+&lt;/span&gt;&lt;span id="row-35"&gt;&lt;span class="lineno"&gt;35 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-36"&gt;&lt;span class="lineno"&gt;36 &lt;/span&gt;  stop
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;img alt="uml diagram" class="uml" src="https://derez.github.io/images/f13d3990.png"/&gt;
+&lt;p&gt;Using skinparam to customize the graphics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt; 1 &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;uml&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-2"&gt;&lt;span class="lineno"&gt; 2 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-3"&gt;&lt;span class="lineno"&gt; 3 &lt;/span&gt;  skinparam backgroundColor Black
+&lt;/span&gt;&lt;span id="row-4"&gt;&lt;span class="lineno"&gt; 4 &lt;/span&gt;  skinparam handwritten true
+&lt;/span&gt;&lt;span id="row-5"&gt;&lt;span class="lineno"&gt; 5 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-6"&gt;&lt;span class="lineno"&gt; 6 &lt;/span&gt;  skinparam sequence {
+&lt;/span&gt;&lt;span id="row-7"&gt;&lt;span class="lineno"&gt; 7 &lt;/span&gt;    ArrowColor DeepSkyBlue
+&lt;/span&gt;&lt;span id="row-8"&gt;&lt;span class="lineno"&gt; 8 &lt;/span&gt;    ActorBorderColor DeepSkyBlue
+&lt;/span&gt;&lt;span id="row-9"&gt;&lt;span class="lineno"&gt; 9 &lt;/span&gt;    LifeLineBorderColor blue
+&lt;/span&gt;&lt;span id="row-10"&gt;&lt;span class="lineno"&gt;10 &lt;/span&gt;    LifeLineBackgroundColor #A9DCDF
+&lt;/span&gt;&lt;span id="row-11"&gt;&lt;span class="lineno"&gt;11 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-12"&gt;&lt;span class="lineno"&gt;12 &lt;/span&gt;    ParticipantBorderColor DeepSkyBlue
+&lt;/span&gt;&lt;span id="row-13"&gt;&lt;span class="lineno"&gt;13 &lt;/span&gt;    ParticipantBackgroundColor DodgerBlue
+&lt;/span&gt;&lt;span id="row-14"&gt;&lt;span class="lineno"&gt;14 &lt;/span&gt;    ParticipantFontName Impact
+&lt;/span&gt;&lt;span id="row-15"&gt;&lt;span class="lineno"&gt;15 &lt;/span&gt;    ParticipantFontSize 17
+&lt;/span&gt;&lt;span id="row-16"&gt;&lt;span class="lineno"&gt;16 &lt;/span&gt;    ParticipantFontColor #A9DCDF
+&lt;/span&gt;&lt;span id="row-17"&gt;&lt;span class="lineno"&gt;17 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-18"&gt;&lt;span class="lineno"&gt;18 &lt;/span&gt;    ActorBackgroundColor aqua
+&lt;/span&gt;&lt;span id="row-19"&gt;&lt;span class="lineno"&gt;19 &lt;/span&gt;    ActorFontColor DeepSkyBlue
+&lt;/span&gt;&lt;span id="row-20"&gt;&lt;span class="lineno"&gt;20 &lt;/span&gt;    ActorFontSize 17
+&lt;/span&gt;&lt;span id="row-21"&gt;&lt;span class="lineno"&gt;21 &lt;/span&gt;    ActorFontName Aapex
+&lt;/span&gt;&lt;span id="row-22"&gt;&lt;span class="lineno"&gt;22 &lt;/span&gt;  }
+&lt;/span&gt;&lt;span id="row-23"&gt;&lt;span class="lineno"&gt;23 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-24"&gt;&lt;span class="lineno"&gt;24 &lt;/span&gt;  actor User
+&lt;/span&gt;&lt;span id="row-25"&gt;&lt;span class="lineno"&gt;25 &lt;/span&gt;  participant "First Class" as A
+&lt;/span&gt;&lt;span id="row-26"&gt;&lt;span class="lineno"&gt;26 &lt;/span&gt;  participant "Second Class" as B
+&lt;/span&gt;&lt;span id="row-27"&gt;&lt;span class="lineno"&gt;27 &lt;/span&gt;  participant "Last Class" as C
+&lt;/span&gt;&lt;span id="row-28"&gt;&lt;span class="lineno"&gt;28 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-29"&gt;&lt;span class="lineno"&gt;29 &lt;/span&gt;  User -&amp;gt; A: DoWork
+&lt;/span&gt;&lt;span id="row-30"&gt;&lt;span class="lineno"&gt;30 &lt;/span&gt;  activate A
+&lt;/span&gt;&lt;span id="row-31"&gt;&lt;span class="lineno"&gt;31 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-32"&gt;&lt;span class="lineno"&gt;32 &lt;/span&gt;  A -&amp;gt; B: Create Request
+&lt;/span&gt;&lt;span id="row-33"&gt;&lt;span class="lineno"&gt;33 &lt;/span&gt;  activate B
+&lt;/span&gt;&lt;span id="row-34"&gt;&lt;span class="lineno"&gt;34 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-35"&gt;&lt;span class="lineno"&gt;35 &lt;/span&gt;  B -&amp;gt; C: DoWork
+&lt;/span&gt;&lt;span id="row-36"&gt;&lt;span class="lineno"&gt;36 &lt;/span&gt;  activate C
+&lt;/span&gt;&lt;span id="row-37"&gt;&lt;span class="lineno"&gt;37 &lt;/span&gt;  C --&amp;gt; B: WorkDone
+&lt;/span&gt;&lt;span id="row-38"&gt;&lt;span class="lineno"&gt;38 &lt;/span&gt;  destroy C
+&lt;/span&gt;&lt;span id="row-39"&gt;&lt;span class="lineno"&gt;39 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-40"&gt;&lt;span class="lineno"&gt;40 &lt;/span&gt;  B --&amp;gt; A: Request Created
+&lt;/span&gt;&lt;span id="row-41"&gt;&lt;span class="lineno"&gt;41 &lt;/span&gt;  deactivate B
+&lt;/span&gt;&lt;span id="row-42"&gt;&lt;span class="lineno"&gt;42 &lt;/span&gt;
+&lt;/span&gt;&lt;span id="row-43"&gt;&lt;span class="lineno"&gt;43 &lt;/span&gt;  A --&amp;gt; User: Done
+&lt;/span&gt;&lt;span id="row-44"&gt;&lt;span class="lineno"&gt;44 &lt;/span&gt;  deactivate A
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;img alt="uml diagram" class="uml" src="https://derez.github.io/images/59f9feaa.png"/&gt;
+&lt;img alt="uml diagram" class="uml" src="https://derez.github.io/images/19f7f9e2.png"/&gt;
+</content><category term="restructured text"></category><category term="uml"></category><category term="plantuml"></category></entry><entry><title>How to install Pelican</title><link href="https://derez.github.io/2018/pelican-powered.html" rel="alternate"></link><published>2018-03-01T00:00:00-05:00</published><updated>2018-03-01T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-03-01:/2018/pelican-powered.html</id><summary type="html">&lt;p class="first last"&gt;Installing pelican&amp;nbsp;101&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;1) First, create a &lt;tt class="docutils literal"&gt;virtualenv&lt;/tt&gt;. This step requires that you have already setup virtualenv and virtualenvwrapper. I am using it to create
+the virtualenv with python3 and probably isn’t the correct way today. I have been using python3 for years and I like having the same
+workflow for both.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkproject -p python3 &amp;lt;venv_name&amp;gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;Install Pelican&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3) Run quickstart to get a sample site created to look at. It will ask a series of questions to configure environment. Use default
+settings unless you know what you want. All settings are able to modified later in the pelicanconf.py.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pelican-quickstart
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="4"&gt;
+&lt;li&gt;To look at the test site and explore.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol class="arabic simple" start="5"&gt;
+&lt;li&gt;Goto a web browser to &lt;a class="reference external" href="http://127.0.0.1:8000"&gt;http://127.0.0.1:8000&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6) Generate content by going into the &amp;lt;project folder/content and create a new RestructuredText file. Once done you can regenerate
+content and review at the same localhost address.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make clean &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="python"></category><category term="pelican"></category></entry><entry><title>Pelican project website and theme</title><link href="https://derez.github.io/2018/project-website.html" rel="alternate"></link><published>2018-01-10T00:00:00-05:00</published><updated>2018-01-10T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-01-10:/2018/project-website.html</id><summary type="html">
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two down.&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I have been thinking about getting my project blog site back up again. I wanted to use a static website generator as security has
+been an issue with closing the last two down.&lt;/p&gt;
+
+&lt;p&gt;Since I have spent the better part of the last 14 years working in Python that was an easy choice as well. I chose
+&lt;a class="reference external" href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt; and decided to build a custom theme as I couldn’t find one I was happy with.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="requirements"&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Since all projects starts with requirements ;)&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Support identification of projects and resources I want to post.&lt;/li&gt;
+&lt;li&gt;Would like to have a project site first with the ability to blog.&lt;/li&gt;
+&lt;li&gt;Wanted to use ReStructured Text. The site content needed to be driven by simple &lt;span class="caps"&gt;ASCII&lt;/span&gt; text files.&lt;/li&gt;
+&lt;li&gt;Great code syntax highlighting is a must.&lt;/li&gt;
+&lt;li&gt;Support for mobile platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="blog"></category><category term="static website"></category><category term="pelican"></category><category term="python"></category><category term="github"></category><category term="materializecss"></category></entry></feed>

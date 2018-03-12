@@ -4,16 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="https://derez.github.io/theme/images/favicon.ico" type="image/x-icon">
 
-    <title>Restructured Text&nbsp;Cheatsheet</title>
+    <title>Restructured Text Reference&nbsp;Sheet</title>
     <meta charset="utf-8">
-    <link href="https://derez.github.io/feed/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Full Atom Feed"/>
-    <link href="https://derez.github.io/feed/index.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Atom Feed"/>
+    <link href="https://derez.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Full Atom Feed"/>
+    <link href="https://derez.github.io/feeds/index.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Atom Feed"/>
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize-icons/material-icons.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fonts/source-code-pro.css">
 
-    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?3b9cbf50">
+    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?da7c28ed">
 
 
   </head>
@@ -32,19 +32,24 @@
           <li>
             <div class="userView">
               <a href="#!user"><img class="circle" src="https://derez.github.io/theme/images/headshot.png"></a>
-              <a href="#!name"><span class="name">Danny "derez" Walker</span></a>
-              <a href="#!email"><span class="email">derez@packetforge.net</span></a>
+              <a href="#!name"><span class="name">Danny 'derez' Walker</span></a>
+              <span class="email">derez<i class="fa fa-at"></i>packetforge[dot]net</span>
             </div>
           </li>
           <li>
-              <a href="https://derez.github.io/projects.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-cog fa-lg"></i>Projects</a>
-              <a href="https://derez.github.io/pages/about.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-user-circle fa-lg"></i>About</a>
+              <a href="https://derez.github.io/projects.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-cogs fa-lg"></i>&nbsp;&nbsp;Projects</a>
+              <a href="https://derez.github.io/pages/about.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-user-circle fa-lg"></i>&nbsp;&nbsp;About</a>
           </li>
           <li>
               <b>Browse blog by</b>
-              <a href="https://derez.github.io/categories.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
-              <a href="https://derez.github.io/archives.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
-              <a href="https://derez.github.io/tags.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
+              <a href="https://derez.github.io/categories.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
+              <a href="https://derez.github.io/archives.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
+              <a href="https://derez.github.io/tags.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
           </li>
         </ul>
         <!-- end of slide-out -->
@@ -53,21 +58,23 @@
           <ul id="top-nav" class="top-nav">
             <li>
               <a href="#" data-activates="slide-out" class="button-collapse">
-              <i class="orange-text text-darken-4 material-icons">menu</i>
+              <i class="orange-text text-darken-3 material-icons">menu</i>
               </a>
             </li>
             <li><a id="logo-container" href="https://derez.github.io/" class="brand-logo">
-              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bits on 0x42697473</a></li>
-            <ul class="right hide-on-med-and-down">
-              <li><a class="waves-effect waves-orange btn-flat vertical-align-middle" href="https://derez.github.io/projects.html">
-                Projects</a>
+              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bit on Bits</a></li>
+            <ul class="right hide-on-med-and-down vertical-align-middle">
+              <li><a class="menu-item waves-effect waves-orange btn-flat" href="https://derez.github.io/projects.html">
+                <i class="fa fa-cogs"></i>&nbsp;&nbsp;Projects</a>
               </li>
-              <li><a class="dropdown-button waves-effect waves-orange btn-flat vertical-align-middle" data-beloworigin="true" data-constrainwidth="false" href="#" data-activates="blog-dropdown">Blog</a></li>
+              <li><a class="menu-item dropdown-button waves-effect waves-orange btn-flat" data-beloworigin="true" alignment="left" data-constrainwidth="false" href="#" data-activates="blog-dropdown">
+                <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Blog&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+              </li>
               <li>
                 <form action="https://derez.github.io/search.html">
                   <div class="input-field">
                     <input id="search" type="search" name="q" required autocomplete="off" placeholder="Search...">
-                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-4 fa fa-search fa-lg"></i></label>
+                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-3 fa fa-search fa-lg"></i></label>
                   </div>
                 </form>
               </li>
@@ -81,7 +88,7 @@
     <div class="nav-wrapper container valign-wrapper">
       <div class="col s12 truncate">
         <a href="/" class="breadcrumb"><i class="fa fa-home"></i></a>
-        <a href="/pages/rst-cheatsheet.html" class="breadcrumb">Restructured Text Cheatsheet</a>
+        <a href="/pages/rst-cheatsheet.html" class="breadcrumb">Restructured Text Reference Sheet</a>
       </div>
     </div>
   </nav>
@@ -96,16 +103,16 @@
       <div class="container">
         <div class="parallax-offset">
   <div class="card-panel glow black cyan-text z-depth-5">
-    <h2 class="page-name card-title" title="Permalink Restructured Text Cheatsheet">Restructured Text&nbsp;Cheatsheet</a></h2>
+    <h1 class="page-name card-title" title="Permalink Restructured Text Reference Sheet">Restructured Text Reference&nbsp;Sheet</a></h1>
 
     <div class="flow-text section no-padding" itemprop="text">
       <div class="section" id="inline-markup">
-<h2>Inline&nbsp;Markup</h2>
-<p>Inline markup allows words and phrases within text to have character styles (like italics and boldface) and functionality (like&nbsp;hyperlinks).</p>
+<h2>Inline Markup</h2>
+<p>Inline markup allows words and phrases within text to have character styles (like italics and boldface) and functionality (like hyperlinks).</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="55%" />
-<col width="45%" />
+<col width="55%"/>
+<col width="45%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
@@ -131,7 +138,7 @@ is domain- or application-dependent.</td>
 ``inline literal``
 </pre>
 </td>
-<td>inline literal</td>
+<td><tt class="docutils literal">inline literal</tt></td>
 </tr>
 <tr><td><pre class="first last literal-block">
 reference_
@@ -186,26 +193,26 @@ http://docutils.sf.net/
 </table>
 </div>
 <div class="section" id="escaping-with-backslashes">
-<h2>Escaping with&nbsp;Backslashes</h2>
-<p>reStructuredText uses backslashes (&#8220;\&#8221;) to override the special meaning given to markup characters and get
-the literal characters themselves. To get a literal backslash, use an escaped backslash (&#8220;&#92;&#8221;). For&nbsp;example:</p>
+<h2>Escaping with Backslashes</h2>
+<p>reStructuredText uses backslashes (“\”) to override the special meaning given to markup characters and get
+the literal characters themselves. To get a literal backslash, use an escaped backslash (“\”). For example:</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="55%" />
-<col width="45%" />
+<col width="55%"/>
+<col width="45%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
-*escape* ``with`` &quot;\&quot;
+*escape* ``with`` "\"
 </pre>
 </td>
-<td><em>escape</em> with &#8220;&#8221;</td>
+<td><em>escape</em> <tt class="docutils literal">with</tt> “”</td>
 </tr>
 <tr><td><pre class="first last literal-block">
-\*escape* \``with`` &quot;\\&quot;
+\*escape* \``with`` "\\"
 </pre>
 </td>
-<td>*escape* &#8220;with&#8220; &#8220;\&#8221;</td>
+<td>*escape* “with“ “\”</td>
 </tr>
 </tbody>
 </table>
@@ -214,8 +221,8 @@ the literal characters themselves. To get a literal backslash, use an escaped ba
 <h2>Lists</h2>
 <table border="1" class="docutils">
 <colgroup>
-<col width="52%" />
-<col width="48%" />
+<col width="52%"/>
+<col width="48%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
@@ -224,19 +231,19 @@ the literal characters themselves. To get a literal backslash, use an escaped ba
 - This is item 2
 
 - Item 3: blank lines between items are optional.
-- Item 4: Bullets are &quot;-&quot;, &quot;*&quot; or &quot;+&quot;.
+- Item 4: Bullets are "-", "*" or "+".
   Continuing text must be aligned after the bullet
   and whitespace.
 </pre>
 </td>
 <td><ul class="first last simple">
 <li>This is item 1. A blank line before the first
-and last items is&nbsp;required.</li>
-<li>This is item&nbsp;2</li>
-<li>Item 3: blank lines between items are&nbsp;optional.</li>
-<li>Item 4: Bullets are &#8220;-&#8220;, &#8220;*&#8221; or &#8220;+&#8221;.
+and last items is required.</li>
+<li>This is item 2</li>
+<li>Item 3: blank lines between items are optional.</li>
+<li>Item 4: Bullets are “-“, “*” or “+”.
 Continuing text must be aligned after the bullet
-and&nbsp;whitespace.</li>
+and whitespace.</li>
 </ul>
 </td>
 </tr>
@@ -253,15 +260,15 @@ and&nbsp;whitespace.</li>
 </pre>
 </td>
 <td><ol class="first last arabic simple" start="3">
-<li>This is the first&nbsp;item</li>
-<li>This is the second&nbsp;item</li>
+<li>This is the first item</li>
+<li>This is the second item</li>
 <li>Enumerators are arabic numbers,
-single letters, or roman&nbsp;numerals</li>
+single letters, or roman numerals</li>
 <li>List items should be sequentially
 numbered, but need not start at 1
 (although not all formatters will
-honour the first&nbsp;index).</li>
-<li>This item is&nbsp;auto-enumerated</li>
+honour the first index).</li>
+<li>This item is auto-enumerated</li>
 </ol>
 </td>
 </tr>
@@ -281,13 +288,13 @@ how
 <td><dl class="first last docutils">
 <dt>what</dt>
 <dd>Definition lists associate a term with
-a&nbsp;definition.</dd>
+a definition.</dd>
 <dt>how</dt>
 <dd>The term is a one-line phrase, and the
 definition is one or more paragraphs or
 body elements, indented relative to the
 term. Blank lines are not allowed
-between term and&nbsp;definition.</dd>
+between term and definition.</dd>
 </dl>
 </td>
 </tr>
@@ -303,18 +310,18 @@ between term and&nbsp;definition.</dd>
 </pre>
 </td>
 <td><table class="first last docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
+<col class="field-name"/>
+<col class="field-body"/>
 <tbody valign="top">
 <tr class="field"><th class="field-name">Authors:</th><td class="field-body"><p class="first">Tony J. (Tibs) Ibbs,
-David&nbsp;Goodger</p>
-<p>(and sundry other good-natured&nbsp;folks)</p>
+David Goodger</p>
+<p>(and sundry other good-natured folks)</p>
 </td>
 </tr>
-<tr class="field"><th class="field-name">Version:</th><td class="field-body"><p class="first">1.0 of&nbsp;2001/08/08</p>
+<tr class="field"><th class="field-name">Version:</th><td class="field-body"><p class="first">1.0 of 2001/08/08</p>
 </td>
 </tr>
-<tr class="field"><th class="field-name">Dedication:</th><td class="field-body"><p class="first last">To my&nbsp;father.</p>
+<tr class="field"><th class="field-name">Dedication:</th><td class="field-body"><p class="first last">To my father.</p>
 </td>
 </tr>
 </tbody>
@@ -322,7 +329,7 @@ David&nbsp;Goodger</p>
 </td>
 </tr>
 <tr><td><pre class="first last literal-block">
--a            command-line option &quot;a&quot;
+-a            command-line option "a"
 -b file       options can have arguments
               and long descriptions
 --long        options can be long also
@@ -332,12 +339,12 @@ David&nbsp;Goodger</p>
 </pre>
 </td>
 <td><table class="first last docutils option-list" frame="void" rules="none">
-<col class="option" />
-<col class="description" />
+<col class="option"/>
+<col class="description"/>
 <tbody valign="top">
 <tr><td class="option-group">
 <kbd><span class="option">-a</span></kbd></td>
-<td>command-line option &#8220;a&#8221;</td></tr>
+<td>command-line option “a”</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">-b <var>file</var></span></kbd></td>
 <td>options can have arguments
@@ -360,11 +367,11 @@ arguments</td></tr>
 </table>
 </div>
 <div class="section" id="section-structure">
-<h2>Section&nbsp;Structure</h2>
+<h2>Section Structure</h2>
 <table border="1" class="docutils">
 <colgroup>
-<col width="51%" />
-<col width="49%" />
+<col width="51%"/>
+<col width="49%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
@@ -386,23 +393,23 @@ Python convention is:
 * ``=``, for sections
 * ``-``, for subsections
 * ``^``, for subsubsections
-* ``&quot;``, for paragraphs
+* ``"``, for paragraphs
 </pre>
 </td>
 <td><p class="faketitle first">Title</p>
 <p>Titles are underlined (or over- and underlined) with
-a nonalphanumeric character at least as long as the&nbsp;text.</p>
+a nonalphanumeric character at least as long as the text.</p>
 <p>A lone top-level section is lifted up to be the
-document&#8217;s&nbsp;title.</p>
+document’s title.</p>
 <p>Any non-alphanumeric character can be used, but
-Python convention&nbsp;is:</p>
+Python convention is:</p>
 <ul class="last simple">
-<li># with overline, for&nbsp;parts</li>
-<li>* with overline, for&nbsp;chapters</li>
-<li>=, for&nbsp;sections</li>
-<li>-, for&nbsp;subsections</li>
-<li>^, for&nbsp;subsubsections</li>
-<li><span class="dquo">&#8220;</span>, for&nbsp;paragraphs</li>
+<li><tt class="docutils literal">#</tt> with overline, for parts</li>
+<li><tt class="docutils literal">*</tt> with overline, for chapters</li>
+<li><tt class="docutils literal">=</tt>, for sections</li>
+<li><tt class="docutils literal">-</tt>, for subsections</li>
+<li><tt class="docutils literal">^</tt>, for subsubsections</li>
+<li><tt class="docutils literal">"</tt>, for paragraphs</li>
 </ul>
 </td>
 </tr>
@@ -413,8 +420,8 @@ Python convention&nbsp;is:</p>
 <h2>Blocks</h2>
 <table border="1" class="docutils">
 <colgroup>
-<col width="54%" />
-<col width="46%" />
+<col width="54%"/>
+<col width="46%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
@@ -424,10 +431,10 @@ Paragraphs line up at their left edges, and are
 normally separated by blank lines.
 </pre>
 </td>
-<td><p class="first">This is a&nbsp;paragraph.</p>
+<td><p class="first">This is a paragraph.</p>
 <p class="last">Paragraphs line up at their left
 edges, and are normally separated
-by blank&nbsp;lines.</p>
+by blank lines.</p>
 </td>
 </tr>
 <tr><td><pre class="first last literal-block">
@@ -454,18 +461,18 @@ blocks::
 </td>
 <td><p class="first">A paragraph containing only two colons
 indicates that the following indented
-or quoted text is a literal&nbsp;block.</p>
+or quoted text is a literal block.</p>
 <pre class="literal-block">
 Whitespace, newlines, blank lines, and
 all kinds of markup (like *this* or
 \this) is preserved by literal blocks.
 </pre>
-<p>You can also tack the :: at the end of a&nbsp;paragraph:</p>
+<p>You can also tack the <tt class="docutils literal">::</tt> at the end of a paragraph:</p>
 <pre class="literal-block">
 It's very convenient to use this form.
 </pre>
 <p>Per-line quoting can also be used for
-unindented&nbsp;blocks:</p>
+unindented blocks:</p>
 <pre class="last literal-block">
 &gt; Useful for quotes from email and
 &gt; for Haskell literate programming.
@@ -477,7 +484,7 @@ unindented&nbsp;blocks:</p>
 | verse, and adornment-free lists.
 |
 | Each new line begins with a
-| vertical bar (&quot;|&quot;).
+| vertical bar ("|").
 |     Line breaks and initial indents
 |     are preserved.
 | Continuation lines are wrapped
@@ -488,9 +495,9 @@ unindented&nbsp;blocks:</p>
 <td><div class="first last line-block">
 <div class="line">Line blocks are useful for addresses,</div>
 <div class="line">verse, and adornment-free lists.</div>
-<div class="line"><br /></div>
+<div class="line"><br/></div>
 <div class="line">Each new line begins with a</div>
-<div class="line">vertical bar (&#8220;|&#8221;).</div>
+<div class="line">vertical bar (“|”).</div>
 <div class="line-block">
 <div class="line">Line breaks and initial indents</div>
 <div class="line">are preserved.</div>
@@ -509,9 +516,9 @@ Block quotes are just:
         and they may nest.
 </pre>
 </td>
-<td><p class="first">Block quotes are&nbsp;just:</p>
+<td><p class="first">Block quotes are just:</p>
 <blockquote class="last">
-<p>Indented&nbsp;paragraphs,</p>
+<p>Indented paragraphs,</p>
 <blockquote>
 and they may nest.</blockquote>
 </blockquote>
@@ -520,17 +527,17 @@ and they may nest.</blockquote>
 <tr><td><pre class="first last literal-block">
 Doctest blocks are interactive
 Python sessions. They begin with
-&quot;``&gt;&gt;&gt;``&quot; and end with a blank line.
+"``&gt;&gt;&gt;``" and end with a blank line.
 
-&gt;&gt;&gt; print &quot;This is a doctest block.&quot;
+&gt;&gt;&gt; print "This is a doctest block."
 This is a doctest block.
 </pre>
 </td>
 <td><p class="first">Doctest blocks are interactive
 Python sessions. They begin with
-&#8220;&gt;&gt;&gt;&#8221; and end with a blank&nbsp;line.</p>
+“<tt class="docutils literal">&gt;&gt;&gt;</tt>” and end with a blank line.</p>
 <pre class="last doctest-block">
-&gt;&gt;&gt; print &quot;This is a doctest block.&quot;
+&gt;&gt;&gt; print "This is a doctest block."
 This is a doctest block.
 </pre>
 </td>
@@ -548,19 +555,19 @@ transitions be immediately adjacent.
 </pre>
 </td>
 <td><p class="first">A transition marker is a horizontal line
-of 4 or more repeated punctuation&nbsp;characters.</p>
+of 4 or more repeated punctuation characters.</p>
 <table border="1" class="faketrans docutils">
 <colgroup>
-<col width="100%" />
+<col width="100%"/>
 </colgroup>
 <tbody valign="top">
-<tr><td>&nbsp;</td>
+<tr><td> </td>
 </tr>
 </tbody>
 </table>
 <p class="last">A transition should not begin or end a
 section or document, nor should two
-transitions be immediately&nbsp;adjacent.</p>
+transitions be immediately adjacent.</p>
 </td>
 </tr>
 </tbody>
@@ -569,11 +576,11 @@ transitions be immediately&nbsp;adjacent.</p>
 <div class="section" id="tables">
 <h2>Tables</h2>
 <p>There are two syntaxes for tables in reStructuredText. Grid tables are complete but cumbersome to create. Simple
-tables are easy to create but limited (no row spans,&nbsp;etc.).</p>
+tables are easy to create but limited (no row spans, etc.).</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="54%" />
-<col width="46%" />
+<col width="54%"/>
+<col width="46%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
@@ -592,9 +599,9 @@ tables are easy to create but limited (no row spans,&nbsp;etc.).</p>
 </td>
 <td><table border="1" class="exampletable1 first last docutils">
 <colgroup>
-<col width="34%" />
-<col width="34%" />
-<col width="31%" />
+<col width="34%"/>
+<col width="34%"/>
+<col width="31%"/>
 </colgroup>
 <thead valign="bottom">
 <tr><th class="head">Header 1</th>
@@ -641,9 +648,9 @@ True   True   True
 </td>
 <td><table border="1" class="exampletable1 first last docutils">
 <colgroup>
-<col width="31%" />
-<col width="31%" />
-<col width="38%" />
+<col width="31%"/>
+<col width="31%"/>
+<col width="38%"/>
 </colgroup>
 <thead valign="bottom">
 <tr><th class="head" colspan="2">Inputs</th>
@@ -679,21 +686,21 @@ True   True   True
 </table>
 </div>
 <div class="section" id="explicit-markup">
-<h2>Explicit&nbsp;Markup</h2>
+<h2>Explicit Markup</h2>
 <p>Explicit markup blocks are used for constructs which float (footnotes), have no direct paper-document representation
 (hyperlink targets, comments), or require specialized processing (directives).
-They all begin with two periods and whitespace, the &#8220;explicit markup&nbsp;start&#8221;.</p>
+They all begin with two periods and whitespace, the “explicit markup start”.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="51%" />
-<col width="49%" />
+<col width="51%"/>
+<col width="49%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><pre class="first last literal-block">
 Footnote references, like [5]_.
 Note that footnotes may get
 rearranged, e.g., to the bottom of
-the &quot;page&quot;.
+the "page".
 
 .. [5] A numerical footnote. Note
    there's no colon after the ``]``.
@@ -702,12 +709,12 @@ the &quot;page&quot;.
 <td><p class="first">Footnote references, like <a class="footnote-reference" href="#id5" id="id4">[5]</a>.
 Note that footnotes may get
 rearranged, e.g., to the bottom of
-the&nbsp;&#8220;page&#8221;.</p>
+the “page”.</p>
 <table class="last docutils footnote" frame="void" id="id5" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id4">[5]</a></td><td>A numerical footnote. Note
-there&#8217;s no colon after the ].</td></tr>
+there’s no colon after the <tt class="docutils literal">]</tt>.</td></tr>
 </tbody>
 </table>
 </td>
@@ -731,28 +738,28 @@ labels' - for instance,
 <td><p class="first">Autonumbered footnotes are
 possible, like using <a class="footnote-reference" href="#id8" id="id6">[1]</a> and <a class="footnote-reference" href="#id9" id="id7">[2]</a>.</p>
 <table class="docutils footnote" frame="void" id="id8" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id6">[1]</a></td><td>This is the first one.</td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id9" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id7">[2]</a></td><td>This is the second one.</td></tr>
 </tbody>
 </table>
-<p>They may be assigned &#8216;autonumber
-labels&#8217; - for instance,
+<p>They may be assigned ‘autonumber
+labels’ - for instance,
 <a class="footnote-reference" href="#fourth" id="id10">[4]</a> and <a class="footnote-reference" href="#third" id="id11">[3]</a>.</p>
 <table class="docutils footnote" frame="void" id="third" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id11">[3]</a></td><td>a.k.a. <a class="reference internal" href="#third">third</a></td></tr>
 </tbody>
 </table>
 <table class="last docutils footnote" frame="void" id="fourth" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id10">[4]</a></td><td>a.k.a. <a class="reference internal" href="#fourth">fourth</a></td></tr>
 </tbody>
@@ -770,13 +777,13 @@ possible, like this: [*]_ and [*]_.
 <td><p class="first">Auto-symbol footnotes are also
 possible, like this: <a class="footnote-reference" href="#id14" id="id12">[*]</a> and <a class="footnote-reference" href="#id15" id="id13">[†]</a>.</p>
 <table class="docutils footnote" frame="void" id="id14" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id12">[*]</a></td><td>This is the first one.</td></tr>
 </tbody>
 </table>
 <table class="last docutils footnote" frame="void" id="id15" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id13">[†]</a></td><td>This is the second one.</td></tr>
 </tbody>
@@ -787,7 +794,7 @@ possible, like this: <a class="footnote-reference" href="#id14" id="id12">[*]</a
 Citation references, like [CIT2002]_.
 Note that citations may get
 rearranged, e.g., to the bottom of
-the &quot;page&quot;.
+the "page".
 
 .. [CIT2002] A citation
    (as often used in journals).
@@ -805,9 +812,9 @@ can also refer to it like this_.
 <td><p class="first">Citation references, like <a class="citation-reference" href="#cit2002" id="id16">[<span class="caps">CIT2002</span>]</a>.
 Note that citations may get
 rearranged, e.g., to the bottom of
-the&nbsp;&#8220;page&#8221;.</p>
+the “page”.</p>
 <table class="docutils citation" frame="void" id="cit2002" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label">[<span class="caps">CIT2002</span>]</td><td><em>(<a class="fn-backref" href="#id2">1</a>, <a class="fn-backref" href="#id16">2</a>)</em> A citation
 (as often used in journals).</td></tr>
@@ -815,11 +822,11 @@ the&nbsp;&#8220;page&#8221;.</p>
 </table>
 <p>Citation labels contain alphanumerics,
 underlines, hyphens and fullstops.
-Case is not&nbsp;significant.</p>
+Case is not significant.</p>
 <p>Given a citation like <a class="citation-reference" href="#this" id="id17">[this]</a>, one
 can also refer to it like <a class="reference internal" href="#this">this</a>.</p>
 <table class="last docutils citation" frame="void" id="this" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
+<colgroup><col class="label"/><col/></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id17">[this]</a></td><td>here.</td></tr>
 </tbody>
@@ -850,7 +857,7 @@ This is an example crossreference target.
 </pre>
 </td>
 <td><p class="first">Internal crossreferences, like <a class="reference internal" href="#example">example</a>.</p>
-<p class="last" id="example">This is an example crossreference&nbsp;target.</p>
+<p class="last" id="example">This is an example crossreference target.</p>
 </td>
 </tr>
 <tr><td><pre class="first last literal-block">
@@ -872,7 +879,7 @@ Titles are targets, too
 Implict references, like `Titles are targets, too`_.
 </pre>
 </td>
-<td><p class="faketitle first" id="titles-are-targets-too">Titles are targets,&nbsp;too</p>
+<td><p class="faketitle first" id="titles-are-targets-too">Titles are targets, too</p>
 <p class="last">Implict references, like
 <a class="reference internal" href="#titles-are-targets-too">Titles are targets, too</a>.</p>
 </td>
@@ -888,8 +895,8 @@ For instance:
    :alt: img
 </pre>
 </td>
-<td><p class="first">For&nbsp;instance:</p>
-<img alt="img" class="last" src="https://derez.github.io/images/hex.gif" style="width: 40pt;" />
+<td><p class="first">For instance:</p>
+<img alt="img" class="last" src="https://derez.github.io/images/hex.gif" style="width: 40pt;"/>
 </td>
 </tr>
 <tr><td colspan="2">Substitutions are like inline directives, allowing graphics and arbitrary constructs within text.</td>
@@ -903,10 +910,10 @@ dispose of medical waste.
    :width: 48
 </pre>
 </td>
-<td>The <img alt="biohazard" class="align-middle" src="https://derez.github.io/images/biohazard.png" style="width: 48px;" /> symbol must be used on containers used to
+<td>The <img alt="biohazard" class="align-middle" src="https://derez.github.io/images/biohazard.png" style="width: 48px;"/> symbol must be used on containers used to
 dispose of medical waste.</td>
 </tr>
-<tr><td colspan="2">Any text which begins with an explicit markup start but doesn&#8217;t use the syntax of any of the constructs above, is a comment.</td>
+<tr><td colspan="2">Any text which begins with an explicit markup start but doesn’t use the syntax of any of the constructs above, is a comment.</td>
 </tr>
 <tr><td><pre class="first last literal-block">
 .. This text will not be shown
@@ -920,24 +927,24 @@ rendered as an HTML comment) -->
 </td>
 </tr>
 <tr><td><pre class="first last literal-block">
-An &quot;empty comment&quot; does not
+An "empty comment" does not
 consume following blocks.
-(An empty comment is &quot;..&quot; with
+(An empty comment is ".." with
 blank lines before and after.)
 
 ..
 
-        So this block is not &quot;lost&quot;,
+        So this block is not "lost",
         despite its indentation.
 </pre>
 </td>
-<td><p class="first">An &#8220;empty comment&#8221; does not
+<td><p class="first">An “empty comment” does not
 consume following blocks.
-(An empty comment is &#8220;..&#8221; with
-blank lines before and&nbsp;after.)</p>
-<!--  -->
+(An empty comment is “..” with
+blank lines before and after.)</p>
+<!-- -->
 <blockquote class="last">
-So this block is not &#8220;lost&#8221;,
+So this block is not “lost”,
 despite its indentation.</blockquote>
 </td>
 </tr>
@@ -948,8 +955,8 @@ despite its indentation.</blockquote>
 <h2>Credits</h2>
 <table border="1" class="tablacreditos docutils">
 <colgroup>
-<col width="41%" />
-<col width="59%" />
+<col width="41%"/>
+<col width="59%"/>
 </colgroup>
 <tbody valign="top">
 <tr><td><span class="caps">CP</span> Font from LiquiType:</td>
@@ -970,7 +977,6 @@ despite its indentation.</blockquote>
 
     </div>
   
-      <p>Last updated: 09 Jan 2018</p>
   </div>
 
         </div>

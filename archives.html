@@ -4,16 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="https://derez.github.io/theme/images/favicon.ico" type="image/x-icon">
 
-    <title>Bits on 0x42697473 - Archives</title>
+    <title>Bit on Bits - Archives</title>
     <meta charset="utf-8">
-    <link href="https://derez.github.io/feed/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Full Atom Feed"/>
-    <link href="https://derez.github.io/feed/index.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Atom Feed"/>
+    <link href="https://derez.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Full Atom Feed"/>
+    <link href="https://derez.github.io/feeds/index.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Atom Feed"/>
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize-icons/material-icons.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fonts/source-code-pro.css">
 
-    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?3b9cbf50">
+    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?da7c28ed">
 
 
   </head>
@@ -32,19 +32,24 @@
           <li>
             <div class="userView">
               <a href="#!user"><img class="circle" src="https://derez.github.io/theme/images/headshot.png"></a>
-              <a href="#!name"><span class="name">Danny "derez" Walker</span></a>
-              <a href="#!email"><span class="email">derez@packetforge.net</span></a>
+              <a href="#!name"><span class="name">Danny 'derez' Walker</span></a>
+              <span class="email">derez<i class="fa fa-at"></i>packetforge[dot]net</span>
             </div>
           </li>
           <li>
-              <a href="https://derez.github.io/projects.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-cog fa-lg"></i>Projects</a>
-              <a href="https://derez.github.io/pages/about.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-user-circle fa-lg"></i>About</a>
+              <a href="https://derez.github.io/projects.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-cogs fa-lg"></i>&nbsp;&nbsp;Projects</a>
+              <a href="https://derez.github.io/pages/about.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-user-circle fa-lg"></i>&nbsp;&nbsp;About</a>
           </li>
           <li>
               <b>Browse blog by</b>
-              <a href="https://derez.github.io/categories.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
-              <a href="https://derez.github.io/archives.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
-              <a href="https://derez.github.io/tags.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
+              <a href="https://derez.github.io/categories.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
+              <a href="https://derez.github.io/archives.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
+              <a href="https://derez.github.io/tags.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
           </li>
         </ul>
         <!-- end of slide-out -->
@@ -53,21 +58,23 @@
           <ul id="top-nav" class="top-nav">
             <li>
               <a href="#" data-activates="slide-out" class="button-collapse">
-              <i class="orange-text text-darken-4 material-icons">menu</i>
+              <i class="orange-text text-darken-3 material-icons">menu</i>
               </a>
             </li>
             <li><a id="logo-container" href="https://derez.github.io/" class="brand-logo">
-              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bits on 0x42697473</a></li>
-            <ul class="right hide-on-med-and-down">
-              <li><a class="waves-effect waves-orange btn-flat vertical-align-middle" href="https://derez.github.io/projects.html">
-                Projects</a>
+              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bit on Bits</a></li>
+            <ul class="right hide-on-med-and-down vertical-align-middle">
+              <li><a class="menu-item waves-effect waves-orange btn-flat" href="https://derez.github.io/projects.html">
+                <i class="fa fa-cogs"></i>&nbsp;&nbsp;Projects</a>
               </li>
-              <li><a class="dropdown-button waves-effect waves-orange btn-flat vertical-align-middle" data-beloworigin="true" data-constrainwidth="false" href="#" data-activates="blog-dropdown">Blog</a></li>
+              <li><a class="menu-item dropdown-button waves-effect waves-orange btn-flat" data-beloworigin="true" alignment="left" data-constrainwidth="false" href="#" data-activates="blog-dropdown">
+                <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Blog&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+              </li>
               <li>
                 <form action="https://derez.github.io/search.html">
                   <div class="input-field">
                     <input id="search" type="search" name="q" required autocomplete="off" placeholder="Search...">
-                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-4 fa fa-search fa-lg"></i></label>
+                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-3 fa fa-search fa-lg"></i></label>
                   </div>
                 </form>
               </li>
@@ -98,18 +105,19 @@
 
   <div id="page-archives">
 
-        <dt class="chip">Jul 2018</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              04 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/state-machine.html" class="cyan-text text-lighten-3">state-machine</a>
-            </dd>
-        </dl>
         <dt class="chip">Mar 2018</dt>
         <dl>
             <dd class="card-panel glow hoverable ">
+              09 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+              <a href="https://derez.github.io/2018/working.html" class="cyan-text text-lighten-3">Project Site&nbsp;Link</a>
+            </dd>
+            <dd class="card-panel glow hoverable ">
+              07 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+              <a href="https://derez.github.io/2018/plantuml.html" class="cyan-text text-lighten-3">PlantUML test&nbsp;page</a>
+            </dd>
+            <dd class="card-panel glow hoverable ">
               01 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/pelican_powered.html" class="cyan-text text-lighten-3">How to install&nbsp;Pelican</a>
+              <a href="https://derez.github.io/2018/pelican-powered.html" class="cyan-text text-lighten-3">How to install&nbsp;Pelican</a>
             </dd>
         </dl>
         <dt class="chip">Feb 2018</dt>
@@ -117,10 +125,6 @@
             <dd class="card-panel glow hoverable ">
               23 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
               <a href="https://derez.github.io/2018/golang-prototyping-workflow.html" class="cyan-text text-lighten-3">Golang prototyping&nbsp;workflow</a>
-            </dd>
-            <dd class="card-panel glow hoverable ">
-              23 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/plantuml.html" class="cyan-text text-lighten-3">PlantUML test&nbsp;page</a>
             </dd>
             <dd class="card-panel glow hoverable ">
               23 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -134,91 +138,12 @@
         <dt class="chip">Jan 2018</dt>
         <dl>
             <dd class="card-panel glow hoverable ">
-              10 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/project_website.html" class="cyan-text text-lighten-3">Pelican project website&nbsp;theme</a>
-            </dd>
-            <dd class="card-panel glow hoverable ">
-              09 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/rst-cheatsheet.html" class="cyan-text text-lighten-3">Restructured Text&nbsp;Cheatsheet</a>
-            </dd>
-            <dd class="card-panel glow hoverable ">
-              03 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2018/code0.html" class="cyan-text text-lighten-3">code&nbsp;examples</a>
-            </dd>
-        </dl>
-        <dt class="chip">Nov 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              03 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/workstation and ansible.html" class="cyan-text text-lighten-3">fedora workstation and&nbsp;ansible</a>
-            </dd>
-        </dl>
-        <dt class="chip">Oct 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              02 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/restructured_text_syntax.html" class="cyan-text text-lighten-3">Restructured Text syntax&nbsp;2</a>
-            </dd>
-        </dl>
-        <dt class="chip">May 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              01 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/device-exploitation-3.html" class="cyan-text text-lighten-3">How I exploited A - part&nbsp;3</a>
-            </dd>
-        </dl>
-        <dt class="chip">Apr 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              26 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/device-exploitation-2.html" class="cyan-text text-lighten-3">How I exploited A - part&nbsp;2</a>
-            </dd>
-            <dd class="card-panel glow hoverable ">
-              16 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/device-exploitation.html" class="cyan-text text-lighten-3">How I exploited A - part&nbsp;1</a>
-            </dd>
-            <dd class="card-panel glow hoverable ">
-              09 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/materializebox.html" class="cyan-text text-lighten-3">article with&nbsp;materialbox</a>
-            </dd>
-        </dl>
-        <dt class="chip">Mar 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              16 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/restructured_text_demo.html" class="cyan-text text-lighten-3">ReStructuredText&nbsp;Demo</a>
-            </dd>
-        </dl>
-        <dt class="chip">Feb 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
               22 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/keyboard.html" class="cyan-text text-lighten-3">Markup testing for&nbsp;keyboard</a>
-            </dd>
-        </dl>
-        <dt class="chip">Jan 2017</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              03 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/code1.html" class="cyan-text text-lighten-3">code&nbsp;examples1</a>
+              <a href="https://derez.github.io/2018/workstation and ansible.html" class="cyan-text text-lighten-3">fedora workstation and&nbsp;ansible</a>
             </dd>
             <dd class="card-panel glow hoverable ">
-              03 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2017/shellcode-encoder.html" class="cyan-text text-lighten-3">code&nbsp;examples1</a>
-            </dd>
-        </dl>
-        <dt class="chip">Dec 2016</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              09 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2016/shellcode-encoder-2.html" class="cyan-text text-lighten-3">Shellcode Encoders&nbsp;2</a>
-            </dd>
-        </dl>
-        <dt class="chip">Oct 2016</dt>
-        <dl>
-            <dd class="card-panel glow hoverable ">
-              03 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a href="https://derez.github.io/2016/content.html" class="cyan-text text-lighten-3">Initial&nbsp;content</a>
+              10 <span class="grey-text">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+              <a href="https://derez.github.io/2018/project-website.html" class="cyan-text text-lighten-3">Pelican project website and&nbsp;theme</a>
             </dd>
         </dl>
 

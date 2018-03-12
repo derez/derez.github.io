@@ -1,5 +1,5 @@
 kbd {
-    font-family: Consolas, "Lucida Console", monospace;
+    font-family: Source Code Pro, monospace;
     display: inline-block;
     border-radius: 3px;
     padding: 0px 4px;
@@ -63,16 +63,7 @@ kbd {
   kbd.deep-blue:hover, kbd.deep-blue:hover *, .deep-blue kbd:hover {
     color: white;
   }
-  
-  /* Dark apple */
-  kbd.dark-apple, .dark-apple kbd {
-    background: black;
-    color: #ddd;
-  }
-  
-  kbd.dark-apple:hover, kbd.dark-apple:hover *, .dark-apple kbd:hover {
-    color: white;
-  }
+
   
   /* Type writer */
   kbd.type-writer, .type-writer kbd {
@@ -80,4 +71,43 @@ kbd {
     background: #333;
     color: white;
   }
+  
+  tt.kbd {
+    font-family: Source Code Pro, monospace;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0px 4px;
+    box-shadow: 1px 1px 1px #777;
+    margin: 2px;
+    font-size: 1em;
+    vertical-align: text-bottom;
+    background: #eee;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-weight: 600;
+  
+    /* letter-spacing: 0.5px; */
+    letter-spacing: 1px;
+  
+  
+    /* Prevent selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  tt.kbd:hover {
+    box-shadow: 0px 0px 0px black;
+  }
+  
+  tt.kbd:active {
+    box-shadow: 0px 0px 0px black;
+    background: none;
+  }
+  
   

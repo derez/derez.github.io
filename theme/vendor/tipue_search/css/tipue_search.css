@@ -3,6 +3,8 @@ Tipue Search 4.0
 Copyright (c) 2014 Tipue
 Tipue Search is released under the MIT License
 http://www.tipue.com/search
+
+Modified for site
 */
 
 #tipue_search_form {
@@ -29,6 +31,7 @@ http://www.tipue.com/search
 #tipue_search_warning a {
     font-weight: 300;
     text-decoration: none;
+    color: #fdd835;            /* yellow darken-1 */ 
 }
 
 #tipue_search_warning a:hover {
@@ -39,7 +42,7 @@ http://www.tipue.com/search
 #tipue_search_results_count,
 #tipue_search_warning_head {
     border-bottom: 2px solid #607d8b;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: normal;
     margin: 20px 0 20px 0;
     padding: 5px 5px 15px 5px;
@@ -54,12 +57,12 @@ http://www.tipue.com/search
 }
 
 .tipue_search_content_title a {
-    color: #C74350;
+    color:#e64a19;
     text-decoration: underline;
 }
 
 .tipue_search_content_title a:hover {
-    background-color: #C74350;
+    background-color: #e64a19;
     color: #fff;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
@@ -76,6 +79,8 @@ http://www.tipue.com/search
 
 .tipue_search_content_url a {
     text-decoration: none;
+    color:#e64a19;
+    font-size: 1.2em
 }
 
 .tipue_search_content_url a:hover {
@@ -102,24 +107,35 @@ http://www.tipue.com/search
 }
 
 .h01 {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #tipue_search_foot {
-    margin: 51px 0 21px 0
+    margin: 51px 0 21px 10px;
+    text-align: center;
 }
 
 #tipue_search_foot_boxes {
     margin: 0;
-    padding: 0;
+    padding: 5;
 }
 
 #tipue_search_foot_boxes li {
-    display: inline;
+    display: inline-block;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
 }
+#tipue_search_foot_boxes  li a {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
 #tipue_search_foot_boxes li a:hover {
     border: 1px solid #ccc;
 }

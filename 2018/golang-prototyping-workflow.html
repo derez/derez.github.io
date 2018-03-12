@@ -4,17 +4,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="https://derez.github.io/theme/images/favicon.ico" type="image/x-icon">
 
-    <title>Bits on 0x42697473 - Golang prototyping workflow</title>
+    <title>Bit on Bits - Golang prototyping workflow</title>
     <meta charset="utf-8">
-    <link href="https://derez.github.io/feed/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Full Atom Feed"/>
-    <link href="https://derez.github.io/feed/index.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Atom Feed"/>
-    <link href="https://derez.github.io/category/workflow/feed/index.xml" type="application/atom+xml" rel="alternate" title="Bits on 0x42697473 Categories Atom Feed"/>
+    <link href="https://derez.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Full Atom Feed"/>
+    <link href="https://derez.github.io/feeds/index.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Atom Feed"/>
+    <link href="https://derez.github.io/feeds/category/workflow/index.xml" type="application/atom+xml" rel="alternate" title="Bit on Bits Categories Atom Feed"/>
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/materialize-icons/material-icons.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://derez.github.io/theme/vendor/fonts/source-code-pro.css">
 
-    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?3b9cbf50">
+    <link rel="stylesheet" href="https://derez.github.io/theme/css/current.min.css?da7c28ed">
 
 
 
@@ -40,19 +40,24 @@
           <li>
             <div class="userView">
               <a href="#!user"><img class="circle" src="https://derez.github.io/theme/images/headshot.png"></a>
-              <a href="#!name"><span class="name">Danny "derez" Walker</span></a>
-              <a href="#!email"><span class="email">derez@packetforge.net</span></a>
+              <a href="#!name"><span class="name">Danny 'derez' Walker</span></a>
+              <span class="email">derez<i class="fa fa-at"></i>packetforge[dot]net</span>
             </div>
           </li>
           <li>
-              <a href="https://derez.github.io/projects.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-cog fa-lg"></i>Projects</a>
-              <a href="https://derez.github.io/pages/about.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-user-circle fa-lg"></i>About</a>
+              <a href="https://derez.github.io/projects.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-cogs fa-lg"></i>&nbsp;&nbsp;Projects</a>
+              <a href="https://derez.github.io/pages/about.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-user-circle fa-lg"></i>&nbsp;&nbsp;About</a>
           </li>
           <li>
               <b>Browse blog by</b>
-              <a href="https://derez.github.io/categories.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
-              <a href="https://derez.github.io/archives.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
-              <a href="https://derez.github.io/tags.html" class="cyan-text btn-flat waves-effect waves-orange"><i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
+              <a href="https://derez.github.io/categories.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-folder fa-lg"></i>&nbsp;&nbsp;Categories</a>
+              <a href="https://derez.github.io/archives.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-calendar fa-lg "></i>&nbsp;&nbsp;Dates</a>
+              <a href="https://derez.github.io/tags.html" class="menu-item cyan-text btn-flat waves-effect waves-orange">
+                <i class="cyan-text fa fa-tag fa-lg "></i>&nbsp;&nbsp;Tags</a>
           </li>
         </ul>
         <!-- end of slide-out -->
@@ -61,21 +66,23 @@
           <ul id="top-nav" class="top-nav">
             <li>
               <a href="#" data-activates="slide-out" class="button-collapse">
-              <i class="orange-text text-darken-4 material-icons">menu</i>
+              <i class="orange-text text-darken-3 material-icons">menu</i>
               </a>
             </li>
             <li><a id="logo-container" href="https://derez.github.io/" class="brand-logo">
-              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bits on 0x42697473</a></li>
-            <ul class="right hide-on-med-and-down">
-              <li><a class="waves-effect waves-orange btn-flat vertical-align-middle" href="https://derez.github.io/projects.html">
-                Projects</a>
+              <img class="circle" src="https://derez.github.io/theme/images/avatar.png">Bit on Bits</a></li>
+            <ul class="right hide-on-med-and-down vertical-align-middle">
+              <li><a class="menu-item waves-effect waves-orange btn-flat" href="https://derez.github.io/projects.html">
+                <i class="fa fa-cogs"></i>&nbsp;&nbsp;Projects</a>
               </li>
-              <li><a class="dropdown-button waves-effect waves-orange btn-flat vertical-align-middle" data-beloworigin="true" data-constrainwidth="false" href="#" data-activates="blog-dropdown">Blog</a></li>
+              <li><a class="menu-item dropdown-button waves-effect waves-orange btn-flat" data-beloworigin="true" alignment="left" data-constrainwidth="false" href="#" data-activates="blog-dropdown">
+                <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Blog&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+              </li>
               <li>
                 <form action="https://derez.github.io/search.html">
                   <div class="input-field">
                     <input id="search" type="search" name="q" required autocomplete="off" placeholder="Search...">
-                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-4 fa fa-search fa-lg"></i></label>
+                    <label for="search"><i class=" vertical-align-middle orange-text text-darken-3 fa fa-search fa-lg"></i></label>
                   </div>
                 </form>
               </li>
@@ -113,7 +120,7 @@
 
     <footer class="post-info">
       <span class="published" title="2018-02-23T00:00:00-05:00">
-        <i class="vertical-align-middle cyan-text fa fa-calendar fa-lg"></i>&nbsp;&nbsp;Published: 
+        <i class="vertical-align-middle cyan-text fa fa-calendar fa-lg"></i>&nbsp;&nbsp;Date: 
         <time datetime="2018-02-23" itemprop="dateCreated"> 23 Feb 2018</time>
       </span>
       <br/>
@@ -142,7 +149,7 @@
 </span><span id="row-5"><span class="lineno"> 5 </span>
 </span><span id="row-6"><span class="lineno"> 6 </span><span class="c1">#TODO: add in gitignore</span>
 </span><span id="row-7"><span class="lineno"> 7 </span>
-</span><span id="row-8"><span class="lineno"> 8 </span><span class="nv">REPOPATH</span><span class="o">=</span><span class="s2">&quot;github.com/derez&quot;</span>
+</span><span id="row-8"><span class="lineno"> 8 </span><span class="nv">REPOPATH</span><span class="o">=</span><span class="s2">"github.com/derez"</span>
 </span><span id="row-9"><span class="lineno"> 9 </span>
 </span><span id="row-10"><span class="lineno">10 </span><span class="nv">DIRENV</span><span class="o">=</span><span class="k">$(</span>which direnv<span class="k">)</span>
 </span><span id="row-11"><span class="lineno">11 </span><span class="nv">GO</span><span class="o">=</span><span class="k">$(</span>which go<span class="k">)</span>
@@ -151,68 +158,68 @@
 </span><span id="row-14"><span class="lineno">14 </span>
 </span><span id="row-15"><span class="lineno">15 </span><span class="k">for</span> FC in <span class="nv">$DIRENV</span> <span class="nv">$GO</span> <span class="nv">$DEP</span> <span class="nv">$GIT</span> <span class="p">;</span> <span class="k">do</span>
 </span><span id="row-16"><span class="lineno">16 </span>    <span class="k">if</span> <span class="o">[</span> ! -f <span class="nv">$FC</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-</span><span id="row-17"><span class="lineno">17 </span>        <span class="nb">echo</span> <span class="s2">&quot;[!] Requires </span><span class="nv">$FC</span><span class="s2"> to be installed!&quot;</span>
+</span><span id="row-17"><span class="lineno">17 </span>        <span class="nb">echo</span> <span class="s2">"[!] Requires </span><span class="nv">$FC</span><span class="s2"> to be installed!"</span>
 </span><span id="row-18"><span class="lineno">18 </span>        <span class="nb">exit</span> <span class="m">1</span>
 </span><span id="row-19"><span class="lineno">19 </span>    <span class="k">fi</span>
 </span><span id="row-20"><span class="lineno">20 </span><span class="k">done</span>
 </span><span id="row-21"><span class="lineno">21 </span>
-</span><span id="row-22"><span class="lineno">22 </span><span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">0</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">{</span> <span class="nb">echo</span> <span class="s2">&quot;Usage: </span><span class="nv">$0</span><span class="s2"> project_path_name&quot;</span><span class="p">;</span> <span class="nb">exit</span> <span class="m">1</span><span class="p">;</span> <span class="o">}</span>
+</span><span id="row-22"><span class="lineno">22 </span><span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">0</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">{</span> <span class="nb">echo</span> <span class="s2">"Usage: </span><span class="nv">$0</span><span class="s2"> project_path_name"</span><span class="p">;</span> <span class="nb">exit</span> <span class="m">1</span><span class="p">;</span> <span class="o">}</span>
 </span><span id="row-23"><span class="lineno">23 </span>
-</span><span id="row-24"><span class="lineno">24 </span><span class="nv">PROJECT</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$1</span><span class="s2">&quot;</span>
+</span><span id="row-24"><span class="lineno">24 </span><span class="nv">PROJECT</span><span class="o">=</span><span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span>
 </span><span id="row-25"><span class="lineno">25 </span>
-</span><span id="row-26"><span class="lineno">26 </span><span class="nv">PROJECT_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">&quot;</span>
+</span><span id="row-26"><span class="lineno">26 </span><span class="nv">PROJECT_PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">"</span>
 </span><span id="row-27"><span class="lineno">27 </span>
-</span><span id="row-28"><span class="lineno">28 </span><span class="k">if</span> <span class="o">[</span> -d <span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">&quot;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-</span><span id="row-29"><span class="lineno">29 </span>    <span class="o">{</span> <span class="nb">echo</span> <span class="s2">&quot;[!] </span><span class="nv">$PROJECT_PATH</span><span class="s2"> already exists&quot;</span><span class="p">;</span> <span class="nb">exit</span> <span class="m">1</span><span class="p">;</span> <span class="o">}</span>
+</span><span id="row-28"><span class="lineno">28 </span><span class="k">if</span> <span class="o">[</span> -d <span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span><span id="row-29"><span class="lineno">29 </span>    <span class="o">{</span> <span class="nb">echo</span> <span class="s2">"[!] </span><span class="nv">$PROJECT_PATH</span><span class="s2"> already exists"</span><span class="p">;</span> <span class="nb">exit</span> <span class="m">1</span><span class="p">;</span> <span class="o">}</span>
 </span><span id="row-30"><span class="lineno">30 </span><span class="k">fi</span>
 </span><span id="row-31"><span class="lineno">31 </span>
-</span><span id="row-32"><span class="lineno">32 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Create new project folder at </span><span class="nv">$PROJECT_PATH</span><span class="s2">&quot;</span>
-</span><span id="row-33"><span class="lineno">33 </span>mkdir <span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">&quot;</span>
+</span><span id="row-32"><span class="lineno">32 </span><span class="nb">echo</span> <span class="s2">"[*] Create new project folder at </span><span class="nv">$PROJECT_PATH</span><span class="s2">"</span>
+</span><span id="row-33"><span class="lineno">33 </span>mkdir <span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">"</span>
 </span><span id="row-34"><span class="lineno">34 </span>
-</span><span id="row-35"><span class="lineno">35 </span><span class="nv">ENVRC</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">/.envrc&quot;</span>
-</span><span id="row-36"><span class="lineno">36 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Create .envrc file for environment variables at </span><span class="nv">$ENVRC</span><span class="s2">&quot;</span>
+</span><span id="row-35"><span class="lineno">35 </span><span class="nv">ENVRC</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">/.envrc"</span>
+</span><span id="row-36"><span class="lineno">36 </span><span class="nb">echo</span> <span class="s2">"[*] Create .envrc file for environment variables at </span><span class="nv">$ENVRC</span><span class="s2">"</span>
 </span><span id="row-37"><span class="lineno">37 </span>
-</span><span id="row-38"><span class="lineno">38 </span><span class="nb">echo</span> <span class="s2">&quot;export GOPATH=</span><span class="nv">$PROJECT_PATH</span><span class="s2">&quot;</span> &gt;&gt; <span class="nv">$ENVRC</span>
-</span><span id="row-39"><span class="lineno">39 </span><span class="nb">echo</span> <span class="s2">&quot;export PATH=</span><span class="nv">$PROJECT_PATH</span><span class="s2">/bin:</span><span class="nv">$PATH</span><span class="s2">&quot;</span> &gt;&gt; <span class="nv">$ENVRC</span>
+</span><span id="row-38"><span class="lineno">38 </span><span class="nb">echo</span> <span class="s2">"export GOPATH=</span><span class="nv">$PROJECT_PATH</span><span class="s2">"</span> &gt;&gt; <span class="nv">$ENVRC</span>
+</span><span id="row-39"><span class="lineno">39 </span><span class="nb">echo</span> <span class="s2">"export PATH=</span><span class="nv">$PROJECT_PATH</span><span class="s2">/bin:</span><span class="nv">$PATH</span><span class="s2">"</span> &gt;&gt; <span class="nv">$ENVRC</span>
 </span><span id="row-40"><span class="lineno">40 </span>
-</span><span id="row-41"><span class="lineno">41 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Create project structure&quot;</span>
-</span><span id="row-42"><span class="lineno">42 </span>mkdir <span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">/bin&quot;</span>
-</span><span id="row-43"><span class="lineno">43 </span>mkdir <span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">/pkg&quot;</span>
-</span><span id="row-44"><span class="lineno">44 </span>mkdir <span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">/src&quot;</span>
+</span><span id="row-41"><span class="lineno">41 </span><span class="nb">echo</span> <span class="s2">"[*] Create project structure"</span>
+</span><span id="row-42"><span class="lineno">42 </span>mkdir <span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">/bin"</span>
+</span><span id="row-43"><span class="lineno">43 </span>mkdir <span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">/pkg"</span>
+</span><span id="row-44"><span class="lineno">44 </span>mkdir <span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">/src"</span>
 </span><span id="row-45"><span class="lineno">45 </span>
 </span><span id="row-46"><span class="lineno">46 </span><span class="nb">cd</span> <span class="nv">$PROJECT_PATH</span>
 </span><span id="row-47"><span class="lineno">47 </span><span class="nv">$DIRENV</span> allow . <span class="o">&amp;&amp;</span> <span class="nb">eval</span> <span class="k">$(</span>direnv <span class="nb">export</span> bash<span class="k">)</span>
 </span><span id="row-48"><span class="lineno">48 </span><span class="nv">$DIRENV</span> status
 </span><span id="row-49"><span class="lineno">49 </span>
-</span><span id="row-50"><span class="lineno">50 </span><span class="nv">PROJECT_REPO</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PROJECT_PATH</span><span class="s2">/src/</span><span class="nv">$REPOPATH</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">&quot;</span>
-</span><span id="row-51"><span class="lineno">51 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Setup project repo at </span><span class="nv">$PROJECT_REPO</span><span class="s2">&quot;</span>
+</span><span id="row-50"><span class="lineno">50 </span><span class="nv">PROJECT_REPO</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PROJECT_PATH</span><span class="s2">/src/</span><span class="nv">$REPOPATH</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">"</span>
+</span><span id="row-51"><span class="lineno">51 </span><span class="nb">echo</span> <span class="s2">"[*] Setup project repo at </span><span class="nv">$PROJECT_REPO</span><span class="s2">"</span>
 </span><span id="row-52"><span class="lineno">52 </span>
-</span><span id="row-53"><span class="lineno">53 </span>mkdir -p <span class="s2">&quot;</span><span class="nv">$PROJECT_REPO</span><span class="s2">&quot;</span>
-</span><span id="row-54"><span class="lineno">54 </span><span class="nb">cd</span> <span class="s2">&quot;src/</span><span class="nv">$REPOPATH</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">&quot;</span>
+</span><span id="row-53"><span class="lineno">53 </span>mkdir -p <span class="s2">"</span><span class="nv">$PROJECT_REPO</span><span class="s2">"</span>
+</span><span id="row-54"><span class="lineno">54 </span><span class="nb">cd</span> <span class="s2">"src/</span><span class="nv">$REPOPATH</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">"</span>
 </span><span id="row-55"><span class="lineno">55 </span>
-</span><span id="row-56"><span class="lineno">56 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Initialize new git repo for </span><span class="nv">$PROJECT_REPO</span><span class="s2">&quot;</span>
+</span><span id="row-56"><span class="lineno">56 </span><span class="nb">echo</span> <span class="s2">"[*] Initialize new git repo for </span><span class="nv">$PROJECT_REPO</span><span class="s2">"</span>
 </span><span id="row-57"><span class="lineno">57 </span><span class="nv">$GIT</span> init
-</span><span id="row-58"><span class="lineno">58 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Initialize dep for </span><span class="nv">$PROJECT_REPO</span><span class="s2">&quot;</span>
+</span><span id="row-58"><span class="lineno">58 </span><span class="nb">echo</span> <span class="s2">"[*] Initialize dep for </span><span class="nv">$PROJECT_REPO</span><span class="s2">"</span>
 </span><span id="row-59"><span class="lineno">59 </span><span class="nv">$DEP</span> init
 </span><span id="row-60"><span class="lineno">60 </span>
-</span><span id="row-61"><span class="lineno">61 </span><span class="nv">TESTFILE</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PROJECT_REPO</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">.go&quot;</span>
-</span><span id="row-62"><span class="lineno">62 </span><span class="nb">echo</span> <span class="s2">&quot;[*] Create test file at </span><span class="nv">$TESTFILE</span><span class="s2">&quot;</span>
+</span><span id="row-61"><span class="lineno">61 </span><span class="nv">TESTFILE</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PROJECT_REPO</span><span class="s2">/</span><span class="nv">$PROJECT</span><span class="s2">.go"</span>
+</span><span id="row-62"><span class="lineno">62 </span><span class="nb">echo</span> <span class="s2">"[*] Create test file at </span><span class="nv">$TESTFILE</span><span class="s2">"</span>
 </span><span id="row-63"><span class="lineno">63 </span>
-</span><span id="row-64"><span class="lineno">64 </span><span class="k">$(</span>which cat<span class="k">)</span> &gt; <span class="s2">&quot;</span><span class="nv">$TESTFILE</span><span class="s2">&quot;</span> <span class="s">&lt;&lt; EOF</span>
+</span><span id="row-64"><span class="lineno">64 </span><span class="k">$(</span>which cat<span class="k">)</span> &gt; <span class="s2">"</span><span class="nv">$TESTFILE</span><span class="s2">"</span> <span class="s">&lt;&lt; EOF</span>
 </span><span id="row-65"><span class="lineno">65 </span>
 </span><span id="row-66"><span class="lineno">66 </span><span class="s">package main</span>
 </span><span id="row-67"><span class="lineno">67 </span>
-</span><span id="row-68"><span class="lineno">68 </span><span class="s">import &quot;fmt&quot;</span>
+</span><span id="row-68"><span class="lineno">68 </span><span class="s">import "fmt"</span>
 </span><span id="row-69"><span class="lineno">69 </span>
 </span><span id="row-70"><span class="lineno">70 </span><span class="s">func main() {</span>
-</span><span id="row-71"><span class="lineno">71 </span><span class="s">    fmt.Println(&quot;\nNew test file compiled and executed successfully\n&quot;)</span>
+</span><span id="row-71"><span class="lineno">71 </span><span class="s">    fmt.Println("\nNew test file compiled and executed successfully\n")</span>
 </span><span id="row-72"><span class="lineno">72 </span><span class="s">}</span>
 </span><span id="row-73"><span class="lineno">73 </span><span class="s">EOF</span>
 </span><span id="row-74"><span class="lineno">74 </span>
 </span><span id="row-75"><span class="lineno">75 </span><span class="nv">$GO</span> run <span class="nv">$TESTFILE</span>
 </span><span id="row-76"><span class="lineno">76 </span>
-</span><span id="row-77"><span class="lineno">77 </span><span class="nb">echo</span> <span class="s2">&quot;Project Path: </span><span class="nv">$PROJECT_PATH</span><span class="s2">&quot;</span>
-</span><span id="row-78"><span class="lineno">78 </span><span class="nb">echo</span> <span class="s2">&quot;Project Repo: </span><span class="nv">$PROJECT_REPO</span><span class="s2">&quot;</span>
+</span><span id="row-77"><span class="lineno">77 </span><span class="nb">echo</span> <span class="s2">"Project Path: </span><span class="nv">$PROJECT_PATH</span><span class="s2">"</span>
+</span><span id="row-78"><span class="lineno">78 </span><span class="nb">echo</span> <span class="s2">"Project Repo: </span><span class="nv">$PROJECT_REPO</span><span class="s2">"</span>
 </span></pre></div>
 
     </div>
@@ -244,7 +251,7 @@
           <span id="generated">Static site generated by <a href="https://getpelican.com">Pelican</a> in 
           <a href="https://www.python.org">Python</a> using <a href="https://jinja.pocoo.org">Jinja2.</a></span>
 
-          <span id="copyright">&copy; Copyright 2016-2018
+          <span id="copyright">&copy; Copyright 2018
             &nbsp;Danny Walker
           </span>
         </div>
