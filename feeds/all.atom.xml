@@ -31,7 +31,7 @@ a consistant look.&lt;/p&gt;
 &lt;/span&gt;&lt;span id="row-21"&gt;&lt;span class="lineno"&gt;21 &lt;/span&gt;  deactivate A
 &lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;img alt="Sample sequence diagram" class="uml" src="https://derez.github.io/images/cd97e07a.png"/&gt;
-&lt;p&gt;Another example from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt; site (activity diagram):&lt;/p&gt;
+&lt;p&gt;Activity Diagram example from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt; 1 &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;uml&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;
 &lt;/span&gt;&lt;span id="row-2"&gt;&lt;span class="lineno"&gt; 2 &lt;/span&gt;
 &lt;/span&gt;&lt;span id="row-3"&gt;&lt;span class="lineno"&gt; 3 &lt;/span&gt;  skinparam monochrome reverse
@@ -274,7 +274,7 @@ content and review at the same localhost address.&lt;/p&gt;
 &lt;/span&gt;&lt;span id="row-30"&gt;&lt;span class="lineno"&gt;30 &lt;/span&gt;
 &lt;/span&gt;&lt;span id="row-31"&gt;&lt;span class="lineno"&gt;31 &lt;/span&gt;&lt;span class="k"&gt;fi&lt;/span&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-</content><category term="python"></category><category term="workflow"></category><category term="prototyping"></category><category term="bash"></category></entry><entry><title>fedora workstation and ansible</title><link href="https://derez.github.io/2018/workstation%20and%20ansible.html" rel="alternate"></link><published>2018-01-22T00:00:00-05:00</published><updated>2018-01-22T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-01-22:/2018/workstation and ansible.html</id><summary type="html">&lt;p class="first last"&gt;How I use ansible to manage my fedora&amp;nbsp;workstations.&lt;/p&gt;
+</content><category term="python"></category><category term="workflow"></category><category term="prototyping"></category><category term="bash"></category></entry><entry><title>fedora workstation and ansible</title><link href="https://derez.github.io/2018/fedora-and-ansible.html" rel="alternate"></link><published>2018-01-22T00:00:00-05:00</published><updated>2018-01-22T00:00:00-05:00</updated><author><name>Danny Walker</name></author><id>tag:derez.github.io,2018-01-22:/2018/fedora-and-ansible.html</id><summary type="html">&lt;p class="first last"&gt;How I use ansible to manage my fedora&amp;nbsp;workstations.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Introducing my ansible code for managing my home workstations.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt;1 &lt;/span&gt;&lt;span class="n"&gt;ansible&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;playbook&lt;/span&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;

@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://derez.github.io/</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/archives.html</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/tags.html</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/categories.html</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://derez.github.io/pages/about.html</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -61,7 +61,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://derez.github.io/pages/working.html</loc>
-<lastmod>2018-03-11T22:23:52-00:00</lastmod>
+<lastmod>2018-03-11T22:41:26-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,7 +102,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://derez.github.io/2018/workstation and ansible.html</loc>
+<loc>https://derez.github.io/2018/fedora-and-ansible.html</loc>
 <lastmod>2018-01-22T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

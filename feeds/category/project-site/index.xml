@@ -31,7 +31,7 @@ a consistant look.&lt;/p&gt;
 &lt;/span&gt;&lt;span id="row-21"&gt;&lt;span class="lineno"&gt;21 &lt;/span&gt;  deactivate A
 &lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;img alt="Sample sequence diagram" class="uml" src="https://derez.github.io/images/cd97e07a.png"/&gt;
-&lt;p&gt;Another example from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt; site (activity diagram):&lt;/p&gt;
+&lt;p&gt;Activity Diagram example from &lt;a class="reference external" href="http://plantuml.sourceforge.net"&gt;PlantUML&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span id="row-1"&gt;&lt;span class="lineno"&gt; 1 &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;uml&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;
 &lt;/span&gt;&lt;span id="row-2"&gt;&lt;span class="lineno"&gt; 2 &lt;/span&gt;
 &lt;/span&gt;&lt;span id="row-3"&gt;&lt;span class="lineno"&gt; 3 &lt;/span&gt;  skinparam monochrome reverse
